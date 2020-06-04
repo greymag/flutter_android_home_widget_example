@@ -1,16 +1,11 @@
 # android_widgets_example
 
-A new Flutter project.
+Simple example of the implementation
+[Android Home screen widget](https://developer.android.com/guide/topics/appwidgets/overview)
+in a Flutter application.
 
-## Getting Started
+You should create widget itself in native way, you can't do it in Flutter (for now).
 
-This project is a starting point for a Flutter application.
+[App Widgets Documentation](https://developer.android.com/guide/topics/appwidgets).
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Since Android O (v8.0, API 26) we can request to add widget from application.
